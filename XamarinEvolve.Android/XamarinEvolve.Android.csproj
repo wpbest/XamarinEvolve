@@ -102,6 +102,14 @@
       <HintPath>..\packages\Xamarin.Forms.2.3.1.114\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="ImageCircle.Forms.Plugin.Abstractions, Version=1.6.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.6.0.8\lib\MonoAndroid10\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ImageCircle.Forms.Plugin.Android, Version=1.6.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.6.0.8\lib\MonoAndroid10\ImageCircle.Forms.Plugin.Android.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.WindowsAzure.Mobile, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Azure.Mobile.Client.2.1.1\lib\monoandroid\Microsoft.WindowsAzure.Mobile.dll</HintPath>
       <Private>True</Private>
@@ -126,12 +134,20 @@
       <HintPath>..\packages\CClarke.Plugin.Calendars.0.4.2-beta\lib\MonoAndroid10\Plugin.Calendars.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Plugin.Connectivity, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xam.Plugin.Connectivity.2.1.2\lib\MonoAndroid10\Plugin.Connectivity.dll</HintPath>
+    <Reference Include="Plugin.Connectivity, Version=2.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.2.2.12\lib\MonoAndroid10\Plugin.Connectivity.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Plugin.Connectivity.Abstractions, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xam.Plugin.Connectivity.2.1.2\lib\MonoAndroid10\Plugin.Connectivity.Abstractions.dll</HintPath>
+    <Reference Include="Plugin.Connectivity.Abstractions, Version=2.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.2.2.12\lib\MonoAndroid10\Plugin.Connectivity.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Share, Version=4.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.Share.4.0.2\lib\MonoAndroid10\Plugin.Share.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Share.Abstractions, Version=4.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.Share.4.0.2\lib\MonoAndroid10\Plugin.Share.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -271,12 +287,6 @@
     <Reference Include="Plugin.Permissions.Abstractions">
       <HintPath>..\packages\Plugin.Permissions.1.1.7\lib\MonoAndroid10\Plugin.Permissions.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.Android">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.4.1\lib\MonoAndroid10\ImageCircle.Forms.Plugin.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.4.1\lib\MonoAndroid10\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Gcm, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Gcm.29.0.0.1\lib\MonoAndroid41\Xamarin.GooglePlayServices.Gcm.dll</HintPath>
       <Private>True</Private>
@@ -294,12 +304,6 @@
     </Reference>
     <Reference Include="Refractored.XamForms.PullToRefresh">
       <HintPath>..\packages\Refractored.XamForms.PullToRefresh.1.0.10\lib\MonoAndroid10\Refractored.XamForms.PullToRefresh.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.Share">
-      <HintPath>..\packages\Plugin.Share.4.0.0\lib\MonoAndroid10\Plugin.Share.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.Share.Abstractions">
-      <HintPath>..\packages\Plugin.Share.4.0.0\lib\MonoAndroid10\Plugin.Share.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="FormsToolkit.Android">
       <HintPath>..\packages\FormsToolkit.1.1.14\lib\MonoAndroid10\FormsToolkit.Android.dll</HintPath>

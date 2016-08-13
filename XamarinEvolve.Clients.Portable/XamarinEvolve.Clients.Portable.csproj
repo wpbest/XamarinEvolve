@@ -110,12 +110,20 @@
       <HintPath>..\packages\CClarke.Plugin.Calendars.0.4.2-beta\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Calendars.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Plugin.Connectivity, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xam.Plugin.Connectivity.2.1.2\lib\portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10\Plugin.Connectivity.dll</HintPath>
+    <Reference Include="Plugin.Connectivity, Version=2.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.2.2.12\lib\portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10\Plugin.Connectivity.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Plugin.Connectivity.Abstractions, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xam.Plugin.Connectivity.2.1.2\lib\portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10\Plugin.Connectivity.Abstractions.dll</HintPath>
+    <Reference Include="Plugin.Connectivity.Abstractions, Version=2.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.2.2.12\lib\portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10\Plugin.Connectivity.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Share, Version=4.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.Share.4.0.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Share.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Share.Abstractions, Version=4.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.Share.4.0.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Share.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http.Primitives">
@@ -193,12 +201,6 @@
     <Reference Include="zxing.portable, Version=2.1.0.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ZXing.Net.Mobile.2.1.0-beta1\lib\portable-net45+netcore45+wp8+UAP10+MonoAndroid403+MonoTouch10+Xamarin.iOS10\zxing.portable.dll</HintPath>
       <Private>True</Private>
-    </Reference>
-    <Reference Include="Plugin.Share">
-      <HintPath>..\packages\Plugin.Share.4.0.0\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Share.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.Share.Abstractions">
-      <HintPath>..\packages\Plugin.Share.4.0.0\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Share.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="FormsToolkit">
       <HintPath>..\packages\FormsToolkit.1.1.14\lib\portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\FormsToolkit.dll</HintPath>

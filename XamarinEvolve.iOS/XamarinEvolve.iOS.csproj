@@ -123,6 +123,14 @@
     <Optimize>false</Optimize>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ImageCircle.Forms.Plugin.Abstractions, Version=1.6.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.6.0.8\lib\Xamarin.iOS10\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ImageCircle.Forms.Plugin.iOS, Version=1.6.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.6.0.8\lib\Xamarin.iOS10\ImageCircle.Forms.Plugin.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.WindowsAzure.Mobile, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Azure.Mobile.Client.2.1.1\lib\Xamarin.iOS10\Microsoft.WindowsAzure.Mobile.dll</HintPath>
       <Private>True</Private>
@@ -145,11 +153,21 @@
     <Reference Include="Plugin.Calendars.Abstractions">
       <HintPath>..\packages\CClarke.Plugin.Calendars.0.4.2-beta\lib\Xamarin.iOS10\Plugin.Calendars.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Plugin.Connectivity">
-      <HintPath>..\packages\Xam.Plugin.Connectivity.2.1.2\lib\Xamarin.iOS10\Plugin.Connectivity.dll</HintPath>
+    <Reference Include="Plugin.Connectivity, Version=2.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.2.2.12\lib\Xamarin.iOS10\Plugin.Connectivity.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Plugin.Connectivity.Abstractions">
-      <HintPath>..\packages\Xam.Plugin.Connectivity.2.1.2\lib\Xamarin.iOS10\Plugin.Connectivity.Abstractions.dll</HintPath>
+    <Reference Include="Plugin.Connectivity.Abstractions, Version=2.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.2.2.12\lib\Xamarin.iOS10\Plugin.Connectivity.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Share, Version=4.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.Share.4.0.2\lib\Xamarin.iOS10\Plugin.Share.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Share.Abstractions, Version=4.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.Share.4.0.2\lib\Xamarin.iOS10\Plugin.Share.Abstractions.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
@@ -230,23 +248,11 @@
     <Reference Include="Plugin.Permissions.Abstractions">
       <HintPath>..\packages\Plugin.Permissions.1.1.7\lib\Xamarin.iOS10\Plugin.Permissions.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.iOS">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.4.1\lib\Xamarin.iOS10\ImageCircle.Forms.Plugin.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.4.1\lib\Xamarin.iOS10\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
-    </Reference>
     <Reference Include="Refractored.XamForms.PullToRefresh.iOS">
       <HintPath>..\packages\Refractored.XamForms.PullToRefresh.1.0.10\lib\Xamarin.iOS10\Refractored.XamForms.PullToRefresh.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Refractored.XamForms.PullToRefresh">
       <HintPath>..\packages\Refractored.XamForms.PullToRefresh.1.0.10\lib\Xamarin.iOS10\Refractored.XamForms.PullToRefresh.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.Share">
-      <HintPath>..\packages\Plugin.Share.4.0.0\lib\Xamarin.iOS10\Plugin.Share.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.Share.Abstractions">
-      <HintPath>..\packages\Plugin.Share.4.0.0\lib\Xamarin.iOS10\Plugin.Share.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="FormsToolkit.iOS">
       <HintPath>..\packages\FormsToolkit.1.1.14\lib\Xamarin.iOS10\FormsToolkit.iOS.dll</HintPath>

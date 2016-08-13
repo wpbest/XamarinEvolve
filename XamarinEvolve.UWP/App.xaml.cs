@@ -141,11 +141,11 @@ namespace XamarinEvolve.UWP
                 catch
                 {
                 }
-
-                if (ApiKeys.HockeyAppUWP != nameof(ApiKeys.HockeyAppUWP))
-                {
-                    Microsoft.HockeyApp.HockeyClient.Current.Configure(ApiKeys.HockeyAppUWP);
-                }
+                //WPB
+                //if (ApiKeys.HockeyAppUWP != nameof(ApiKeys.HockeyAppUWP))
+                //{
+                //    Microsoft.HockeyApp.HockeyClient.Current.Configure(ApiKeys.HockeyAppUWP);
+                //}
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

@@ -32,7 +32,18 @@
           "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/FormsToolkit.dll": {}
         }
       },
-      "HockeySDK.UWP/4.0.0": {
+      "HockeySDK.Core/4.1.3": {
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        }
+      },
+      "HockeySDK.UWP/4.1.3": {
+        "dependencies": {
+          "HockeySDK.Core": "4.1.3"
+        },
         "compile": {
           "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
         },
@@ -499,7 +510,7 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "NodaTime/1.3.1": {
+      "NodaTime/1.3.2": {
         "compile": {
           "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.dll": {}
         },
@@ -2422,7 +2433,7 @@
           "lib/windows8/Xamarin.Insights.dll": {}
         }
       },
-      "ZXing.Net.Mobile/2.1.0-beta1": {
+      "ZXing.Net.Mobile/2.1.13": {
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
           "lib/UAP10/ZXingNetMobile.dll": {},
@@ -2434,10 +2445,10 @@
           "lib/UAP10/zxing.portable.dll": {}
         }
       },
-      "ZXing.Net.Mobile.Forms/2.1.0-beta1": {
+      "ZXing.Net.Mobile.Forms/2.1.13": {
         "dependencies": {
           "Xamarin.Forms": "2.0.0.6490",
-          "ZXing.Net.Mobile": "2.1.0-beta1"
+          "ZXing.Net.Mobile": "2.1.13"
         },
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll": {},
@@ -2479,7 +2490,18 @@
           "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/FormsToolkit.dll": {}
         }
       },
-      "HockeySDK.UWP/4.0.0": {
+      "HockeySDK.Core/4.1.3": {
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        }
+      },
+      "HockeySDK.UWP/4.1.3": {
+        "dependencies": {
+          "HockeySDK.Core": "4.1.3"
+        },
         "compile": {
           "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
         },
@@ -2894,7 +2916,7 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "NodaTime/1.3.1": {
+      "NodaTime/1.3.2": {
         "compile": {
           "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.dll": {}
         },
@@ -4949,7 +4971,7 @@
           "lib/windows8/Xamarin.Insights.dll": {}
         }
       },
-      "ZXing.Net.Mobile/2.1.0-beta1": {
+      "ZXing.Net.Mobile/2.1.13": {
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
           "lib/UAP10/ZXingNetMobile.dll": {},
@@ -4961,10 +4983,10 @@
           "lib/UAP10/zxing.portable.dll": {}
         }
       },
-      "ZXing.Net.Mobile.Forms/2.1.0-beta1": {
+      "ZXing.Net.Mobile.Forms/2.1.13": {
         "dependencies": {
           "Xamarin.Forms": "2.0.0.6490",
-          "ZXing.Net.Mobile": "2.1.0-beta1"
+          "ZXing.Net.Mobile": "2.1.13"
         },
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll": {},
@@ -5006,7 +5028,18 @@
           "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/FormsToolkit.dll": {}
         }
       },
-      "HockeySDK.UWP/4.0.0": {
+      "HockeySDK.Core/4.1.3": {
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        }
+      },
+      "HockeySDK.UWP/4.1.3": {
+        "dependencies": {
+          "HockeySDK.Core": "4.1.3"
+        },
         "compile": {
           "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
         },
@@ -5422,7 +5455,7 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "NodaTime/1.3.1": {
+      "NodaTime/1.3.2": {
         "compile": {
           "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.dll": {}
         },
@@ -7515,7 +7548,7 @@
           "lib/windows8/Xamarin.Insights.dll": {}
         }
       },
-      "ZXing.Net.Mobile/2.1.0-beta1": {
+      "ZXing.Net.Mobile/2.1.13": {
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
           "lib/UAP10/ZXingNetMobile.dll": {},
@@ -7527,10 +7560,10 @@
           "lib/UAP10/zxing.portable.dll": {}
         }
       },
-      "ZXing.Net.Mobile.Forms/2.1.0-beta1": {
+      "ZXing.Net.Mobile.Forms/2.1.13": {
         "dependencies": {
           "Xamarin.Forms": "2.0.0.6490",
-          "ZXing.Net.Mobile": "2.1.0-beta1"
+          "ZXing.Net.Mobile": "2.1.13"
         },
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll": {},
@@ -7572,7 +7605,18 @@
           "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/FormsToolkit.dll": {}
         }
       },
-      "HockeySDK.UWP/4.0.0": {
+      "HockeySDK.Core/4.1.3": {
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        }
+      },
+      "HockeySDK.UWP/4.1.3": {
+        "dependencies": {
+          "HockeySDK.Core": "4.1.3"
+        },
         "compile": {
           "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
         },
@@ -7991,7 +8035,7 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "NodaTime/1.3.1": {
+      "NodaTime/1.3.2": {
         "compile": {
           "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.dll": {}
         },
@@ -10051,7 +10095,7 @@
           "lib/windows8/Xamarin.Insights.dll": {}
         }
       },
-      "ZXing.Net.Mobile/2.1.0-beta1": {
+      "ZXing.Net.Mobile/2.1.13": {
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
           "lib/UAP10/ZXingNetMobile.dll": {},
@@ -10063,10 +10107,10 @@
           "lib/UAP10/zxing.portable.dll": {}
         }
       },
-      "ZXing.Net.Mobile.Forms/2.1.0-beta1": {
+      "ZXing.Net.Mobile.Forms/2.1.13": {
         "dependencies": {
           "Xamarin.Forms": "2.0.0.6490",
-          "ZXing.Net.Mobile": "2.1.0-beta1"
+          "ZXing.Net.Mobile": "2.1.13"
         },
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll": {},
@@ -10108,7 +10152,18 @@
           "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/FormsToolkit.dll": {}
         }
       },
-      "HockeySDK.UWP/4.0.0": {
+      "HockeySDK.Core/4.1.3": {
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        }
+      },
+      "HockeySDK.UWP/4.1.3": {
+        "dependencies": {
+          "HockeySDK.Core": "4.1.3"
+        },
         "compile": {
           "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
         },
@@ -10528,7 +10583,7 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "NodaTime/1.3.1": {
+      "NodaTime/1.3.2": {
         "compile": {
           "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.dll": {}
         },
@@ -12626,7 +12681,7 @@
           "lib/windows8/Xamarin.Insights.dll": {}
         }
       },
-      "ZXing.Net.Mobile/2.1.0-beta1": {
+      "ZXing.Net.Mobile/2.1.13": {
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
           "lib/UAP10/ZXingNetMobile.dll": {},
@@ -12638,10 +12693,10 @@
           "lib/UAP10/zxing.portable.dll": {}
         }
       },
-      "ZXing.Net.Mobile.Forms/2.1.0-beta1": {
+      "ZXing.Net.Mobile.Forms/2.1.13": {
         "dependencies": {
           "Xamarin.Forms": "2.0.0.6490",
-          "ZXing.Net.Mobile": "2.1.0-beta1"
+          "ZXing.Net.Mobile": "2.1.13"
         },
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll": {},
@@ -12683,7 +12738,18 @@
           "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/FormsToolkit.dll": {}
         }
       },
-      "HockeySDK.UWP/4.0.0": {
+      "HockeySDK.Core/4.1.3": {
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        }
+      },
+      "HockeySDK.UWP/4.1.3": {
+        "dependencies": {
+          "HockeySDK.Core": "4.1.3"
+        },
         "compile": {
           "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
         },
@@ -13102,7 +13168,7 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "NodaTime/1.3.1": {
+      "NodaTime/1.3.2": {
         "compile": {
           "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.dll": {}
         },
@@ -15162,7 +15228,7 @@
           "lib/windows8/Xamarin.Insights.dll": {}
         }
       },
-      "ZXing.Net.Mobile/2.1.0-beta1": {
+      "ZXing.Net.Mobile/2.1.13": {
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
           "lib/UAP10/ZXingNetMobile.dll": {},
@@ -15174,10 +15240,10 @@
           "lib/UAP10/zxing.portable.dll": {}
         }
       },
-      "ZXing.Net.Mobile.Forms/2.1.0-beta1": {
+      "ZXing.Net.Mobile.Forms/2.1.13": {
         "dependencies": {
           "Xamarin.Forms": "2.0.0.6490",
-          "ZXing.Net.Mobile": "2.1.0-beta1"
+          "ZXing.Net.Mobile": "2.1.13"
         },
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll": {},
@@ -15219,7 +15285,18 @@
           "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/FormsToolkit.dll": {}
         }
       },
-      "HockeySDK.UWP/4.0.0": {
+      "HockeySDK.Core/4.1.3": {
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll": {}
+        }
+      },
+      "HockeySDK.UWP/4.1.3": {
+        "dependencies": {
+          "HockeySDK.Core": "4.1.3"
+        },
         "compile": {
           "lib/uap10.0/Microsoft.HockeyApp.Kit.dll": {}
         },
@@ -15639,7 +15716,7 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "NodaTime/1.3.1": {
+      "NodaTime/1.3.2": {
         "compile": {
           "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.dll": {}
         },
@@ -17737,7 +17814,7 @@
           "lib/windows8/Xamarin.Insights.dll": {}
         }
       },
-      "ZXing.Net.Mobile/2.1.0-beta1": {
+      "ZXing.Net.Mobile/2.1.13": {
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Core.dll": {},
           "lib/UAP10/ZXingNetMobile.dll": {},
@@ -17749,10 +17826,10 @@
           "lib/UAP10/zxing.portable.dll": {}
         }
       },
-      "ZXing.Net.Mobile.Forms/2.1.0-beta1": {
+      "ZXing.Net.Mobile.Forms/2.1.13": {
         "dependencies": {
           "Xamarin.Forms": "2.0.0.6490",
-          "ZXing.Net.Mobile": "2.1.0-beta1"
+          "ZXing.Net.Mobile": "2.1.13"
         },
         "compile": {
           "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll": {},
@@ -17852,17 +17929,32 @@
         "readme.txt"
       ]
     },
-    "HockeySDK.UWP/4.0.0": {
-      "sha512": "ByRaD8GrhJvkM+J5k8wvd8aAWoNxTU/eghaBxLbWw/F704X5w9dUKsVYC6CCWriYTAwxWdVQLerq2V6DQUfasw==",
+    "HockeySDK.Core/4.1.3": {
+      "sha512": "Kz/8GDh49nTPYXjUaykCGN0RIf44qgmv/Y224P+TFM8Bi49Tpcb/1yQzxnXWNp2xBlgt1ctgthXI/HnTeJq3EQ==",
       "type": "package",
+      "path": "HockeySDK.Core/4.1.3",
       "files": [
-        "HockeySDK.UWP.4.0.0.nupkg.sha512",
+        "HockeySDK.Core.4.1.3.nupkg.sha512",
+        "HockeySDK.Core.nuspec",
+        "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll",
+        "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll.CodeAnalysisLog.xml",
+        "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.Core45.dll.lastcodeanalysissucceeded",
+        "lib/portable-net45+win8+wp8+wpa81+win81+uap10.0/Microsoft.HockeyApp.XML"
+      ]
+    },
+    "HockeySDK.UWP/4.1.3": {
+      "sha512": "TlWuK1HomLUrqpUAzvBLIDj4tQhpYozlamJYZYhJe3v5a9Kn7gsGIvXJnOdZUidsvcfHfbrO46g8WwFEkGZgpQ==",
+      "type": "package",
+      "path": "HockeySDK.UWP/4.1.3",
+      "files": [
+        "HockeySDK.UWP.4.1.3.nupkg.sha512",
         "HockeySDK.UWP.nuspec",
         "lib/uap10.0/Microsoft.HockeyApp.Kit.dll",
         "lib/uap10.0/Microsoft.HockeyApp.Kit.dll.CodeAnalysisLog.xml",
         "lib/uap10.0/Microsoft.HockeyApp.Kit.dll.lastcodeanalysissucceeded",
         "lib/uap10.0/Microsoft.HockeyApp.Kit.pri",
-        "lib/uap10.0/Microsoft.HockeyApp.Kit/Properties/Microsoft.HockeyApp.Kit.rd.xml"
+        "lib/uap10.0/Microsoft.HockeyApp.Kit/Properties/Microsoft.HockeyApp.Kit.rd.xml",
+        "tools/Init.ps1"
       ]
     },
     "Humanizer/1.37.7": {
@@ -18467,18 +18559,17 @@
         "tools/install.ps1"
       ]
     },
-    "NodaTime/1.3.1": {
-      "sha512": "qAEVNG9I/kbTC+ClG3vxW+J487YURJbR7lyKCgxSPak04OP0l6lfdbz4XgxbQC28rQMzbBvVFTUovZxrLHRLXA==",
-      "type": "Package",
+    "NodaTime/1.3.2": {
+      "sha512": "iIV8xtLH7JhElTag7wMzP8YkZcSvFUcHZfGZhl3npzVz7V7y0T1JJOeqS/UcY3epq9480jcuUO2jzo8ewhQmlg==",
+      "type": "package",
+      "path": "NodaTime/1.3.2",
       "files": [
+        "NodaTime.1.3.2.nupkg.sha512",
         "NodaTime.nuspec",
-        "[Content_Types].xml",
-        "_rels/.rels",
         "lib/net35-Client/NodaTime.dll",
         "lib/net35-Client/NodaTime.xml",
         "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.dll",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.xml",
-        "package/services/metadata/core-properties/16731ebb684445f8baaeff16044efa44.psmdcp"
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+XamariniOS1/NodaTime.xml"
       ]
     },
     "PCLStorage/1.0.2": {
@@ -25202,11 +25293,12 @@
         "package/services/metadata/core-properties/c050b8400e924ecb9bac2e9417edc8e0.psmdcp"
       ]
     },
-    "ZXing.Net.Mobile/2.1.0-beta1": {
-      "sha512": "FXEZ7n+UHExhrfjM3F/UDH5IEScT2kJ37YSoXWMrpKxniOxORXPKf6ZtViIz9i5d6fiYbYZ2jwlu2XTzFojbGg==",
+    "ZXing.Net.Mobile/2.1.13": {
+      "sha512": "ncleA/l1KBrbw+JyGKhQbViEPfNsr4bKMcqjIGvjovl3Qe7zeGp3aYeK+vBPdBjFxZTvx51XvkvhlCMMk9AspQ==",
       "type": "package",
+      "path": "ZXing.Net.Mobile/2.1.13",
       "files": [
-        "ZXing.Net.Mobile.2.1.0-beta1.nupkg.sha512",
+        "ZXing.Net.Mobile.2.1.13.nupkg.sha512",
         "ZXing.Net.Mobile.nuspec",
         "lib/MonoAndroid403/ZXing.Net.Mobile.Core.dll",
         "lib/MonoAndroid403/ZXingNetMobile.dll",
@@ -25219,19 +25311,20 @@
         "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
         "lib/Xamarin.iOS10/ZXingNetMobile.dll",
         "lib/Xamarin.iOS10/zxing.portable.dll",
-        "lib/portable-net45+netcore45+wp8+UAP10+MonoAndroid403+MonoTouch10+Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
-        "lib/portable-net45+netcore45+wp8+UAP10+MonoAndroid403+MonoTouch10+Xamarin.iOS10/ZXingNetMobile.dll",
-        "lib/portable-net45+netcore45+wp8+UAP10+MonoAndroid403+MonoTouch10+Xamarin.iOS10/zxing.portable.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/ZXingNetMobile.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/zxing.portable.dll",
         "lib/wp8/ZXing.Net.Mobile.Core.dll",
         "lib/wp8/ZXingNetMobile.dll",
         "lib/wp8/zxing.portable.dll"
       ]
     },
-    "ZXing.Net.Mobile.Forms/2.1.0-beta1": {
-      "sha512": "cd7CTWh/tnJf+EVFo3Oq0iSZBzBww/y8lVnMCchDBY6fAtSIXbhoBRyuNSBnnEu1X1WTQYctwPuT05X6zA5yzQ==",
+    "ZXing.Net.Mobile.Forms/2.1.13": {
+      "sha512": "c4kBDWZVgH+eodm/S/sUZVmuKd/OzBGkxx4D/hVWwcdg2KO7ZK9warmeHl6RDPnCnP/1IqI22qbkcBWi/nIM3Q==",
       "type": "package",
+      "path": "ZXing.Net.Mobile.Forms/2.1.13",
       "files": [
-        "ZXing.Net.Mobile.Forms.2.1.0-beta1.nupkg.sha512",
+        "ZXing.Net.Mobile.Forms.2.1.13.nupkg.sha512",
         "ZXing.Net.Mobile.Forms.nuspec",
         "lib/MonoAndroid403/ZXing.Net.Mobile.Forms.Android.dll",
         "lib/MonoAndroid403/ZXing.Net.Mobile.Forms.dll",
@@ -25251,7 +25344,7 @@
       "CClarke.Plugin.Calendars >= 0.4.2-beta",
       "Censored >= 1.0.2",
       "FormsToolkit >= 1.1.14",
-      "HockeySDK.UWP >= 4.0.0",
+      "HockeySDK.UWP >= 4.1.3",
       "Humanizer >= 1.37.7",
       "Microsoft.Azure.Mobile.Client >= 2.1.1",
       "Microsoft.Azure.Mobile.Client.SQLiteStore >= 2.1.1",
@@ -25259,7 +25352,7 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 9.0.1",
-      "NodaTime >= 1.3.1",
+      "NodaTime >= 1.3.2",
       "PCLStorage >= 1.0.2",
       "Plugin.Permissions >= 1.1.7",
       "Plugin.Share >= 4.0.2",
@@ -25274,7 +25367,7 @@
       "Xamarin.Forms >= 2.3.1.114",
       "Xamarin.Forms.Maps >= 2.3.1.114",
       "Xamarin.Insights >= 1.12.3",
-      "ZXing.Net.Mobile.Forms >= 2.1.0-beta1"
+      "ZXing.Net.Mobile.Forms >= 2.1.13"
     ],
     "UAP,Version=v10.0": []
   }
